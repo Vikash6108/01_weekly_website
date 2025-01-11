@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    /* background-color: #b5adad; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background-image: url(https://wallpaperaccess.com/full/1899342.jpg);
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: #e7e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+    position: absolute;
+    filter: blur(0.5px);
+}
+.right{
+    width: 50%;
+    height: 100%;
+    font-size: 17px;
+    /* background-color: #fff; */
+}
+ul > li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li> a:hover{
+    text-decoration: underline #b5adad;
+    transition:.2s;
+}
+li>button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #fa2222;
+    color: white;
+    border: #3365e1;
+    cursor: pointer;
+}
+li>button:hover{
+    padding: 11px 21px;
+    background-color: #d5d2d2;
+    border: 1px;
+    color: #000000;
+    box-shadow: 1px 1px 2px 1px #5f5d5d;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+}
+
+.page1_content{
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.page1_content h1{
+    color: #000000;
+    font-size: 75px;
+}
+.page1_content p{
+    font-size:25px ;
+}
+.multiple_btn{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    color: rgb(1, 1, 1);
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.box{
+    display: flex;
+    background-color: hsl(0, 0%, 100%,.9);   
+    padding: 16px 30px;
+    border-radius: 10px ;
+}
+.btn1 select{
+    background-color: transparent;
+    color: #b3b2b2;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.btn1 button{
+    padding: 20px 30px;
+    background-color: #fa2222;
+    border: 1px solid #fa2222;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    padding: 21px 31px;
+    color: #000000;
+    /* box-shadow: 6px 3px 2px 2px #000000; */
+    background-color: #fff;
+    border: 1px solid #ffffff;
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: #e9e2e2;
+    overflow: hidden;
+}
+.page2_box{
+width: 100%;
+height: 85%;
+padding: 40px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.page2_box h1{
+    margin: 15px;
+}
+.contenar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+
+}
+.card1 img{
+width: 350px;
+height: 300px;
+    /* border: 1px solid black; */
+  /* background-color: #c68a8a; */
+  border-radius: 10px;
+  
+
+}
+.card2 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+.card3 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+.card4 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.contenar .detales{
+display: flex;
+justify-content: space-between;
+padding: 0px 30px;
+color: #928e8e;
+}
+#same1{
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+
+}
+#same2{
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#same3{
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#same4{
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+#same1:hover{
+    height: 470px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#same2:hover{
+    height: 470px;
+    box-shadow: 2px 2px 2px 2px black;
+
+}#same3:hover{
+    height: 470px;
+    box-shadow: 2px 2px 2px 2px  black;
+
+}#same4:hover{
+    height: 470px;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+.contenar button{
+    padding: 15px 35px;
+    background-color: royalblue;
+    margin: 12px 18px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 0px;
+    font-size: 13px;
+
+}
+.contenar button:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+}
+.contenar .detales img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px ;
+    border: .5px solid black;
+    padding: 4px;
+    margin: -9px 10px;
+}
+.contenar .detales i{
+    border-radius: 50px ;
+    border: .5px solid black;
+    padding: 4px;
+    color: black; 
+    margin: 10px;
+}
+
+.page2_btn button{
+    padding: 20px 40px;
+    margin: 10px 43%;
+    background-color: rgba(255, 0, 0, 0.765);
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+
+}
+.page2_btn button:hover{
+    background-color: rgba(255, 255, 255, 0.765);
+    color: black;
+    padding: 22px 42px;
+    border-radius: 0px;
+}
+.page3{
+    width: 100%;
+    height: 60%;
+    background-color: #a6a3a3;
+}
+.page3_box{
+    width: 40%;
+    height: 70%;
+    /* background-color: #b8b3b3; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 15px;
+}
+.page3 .futter h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin: 10px; */
+}
+.page3 .futter h1{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.page3 .futter h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.page3_box p{
+    color: rgb(252, 246, 246);
+    padding: 5px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+.page3_box p:hover{
+    color: #5d5151;
+    transition: .8s;
+}
+.futter{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: #706d6d; */
+    display: flex;
+    position: relative;
+}
+.futter .last_content{
+    width: 100%;
+    height: 10%;
+    /* background-color: #fff; */
+    position: absolute;
+    left: 0%;
+    top: 80%;
+    border-top: .5px solid rgb(113, 109, 109);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10px;
+    color: rgb(9, 8, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .last_content{ */
+/* border-top: 1px solid black;
+display: flex;
+/* position: absolute; */
+/* top: 0; */
+/* background-color: #fff;
+align-items: center;
+justify-content: center; */
+/* } */ 
+
